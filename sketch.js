@@ -69,14 +69,14 @@ function draw() {
         score += 5;
       }*/
 
-      // if (board1Collision.collided || board2Collision.collided) {
-      //   score += 5;
-       
-      // }
-
       if (board1Collision.collided || board2Collision.collided) {
         score += 5;
+       
       }
+
+//       if (board1Collision.collided || board2Collision.collided) {
+//         score += 5;
+//       }
 
       
       var posX = playerArrows[i].body.position.x;
